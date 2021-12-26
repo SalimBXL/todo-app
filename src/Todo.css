@@ -1,0 +1,38 @@
+.Todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faebd7;
+    width: 350px;
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.Todo-task {
+    margin: 0.5em;
+}
+
+.Todo-completed {
+    font-style: italic;
+    text-decoration: line-through;
+    font-size: small;
+}
+
+.Todo-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Todo-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+}
